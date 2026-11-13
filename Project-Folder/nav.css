@@ -1,0 +1,42 @@
+.nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(6, 201, 201);
+    border-radius: 35px;
+    width: 95%;
+    justify-self: center;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    right: 0px;
+    margin-top: 10px;
+    z-index: 10;
+}
+
+.nav p {
+    font-family: 'Georgia';
+     font-weight: 900;
+     font-size: 30px;
+     font-style: italic;
+     color: white;
+     border-radius: 30px;
+     margin-left: 50px;
+}
+
+.nav nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
